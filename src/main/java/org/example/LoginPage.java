@@ -5,7 +5,9 @@ public class LoginPage {
 
     public static void main (String[] args){
 
-    Chromedriver_class log = new Chromedriver_class();
-    log.Webdriver();
+    Chromedriver_class ll= new Chromedriver_class();
+    ll.Webdriver();
+    Loginxpath Run = new Loginxpath();
+    Run.xpath();
     }
 }
